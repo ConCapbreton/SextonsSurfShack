@@ -9,7 +9,7 @@ const MainPage = () => {
 
   return (
     <div id="image-div" onClick={() => {setShowHambMenu(false)}}>
-      <img id="backgroundpic" src="/public/backgroundpic.png" alt="Surfer inside barrel from www.leroybellet.com"/>
+      <img id="backgroundpic" src="/backgroundpic.png" alt="Surfer inside barrel from www.leroybellet.com"/>
       <div id="main-page-text" style={productCategory === TITLE ? {} : hidden}>
         <h1>Welcome to Sexton's Surf Shack!</h1>
         <h2>A hand picked selection of the best surf hardware on the market.</h2>
