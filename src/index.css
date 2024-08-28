@@ -196,9 +196,8 @@ button {
 
 #main-page-titles{
   width: fit-content;
-  
   max-width: 500px;
-  margin: 2rem auto 2rem auto;
+  margin: 1rem auto 0.5rem auto;
   padding: 0 1rem 0 1rem;
   text-align: center;
 }
@@ -410,7 +409,7 @@ form>button:nth-of-type(2) {
 .product-btn {
   background-color: transparent;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border: none;
   padding: 0;
   width: 8%;
@@ -522,7 +521,7 @@ form>button:nth-of-type(2) {
   width: fit-content;
   position: relative;
   z-index: 2;
-  margin: 0.1rem auto 0 auto;
+  margin: 3rem auto 0 auto;
   padding-right: 0.8rem;
   border-radius: 20px;
   background: rgba(33, 53, 71, 0.7);
@@ -532,11 +531,17 @@ form>button:nth-of-type(2) {
   align-items: center;
   gap: 0.5rem;
 }
+@media (min-width: 475px) { 
+  #selector-buttons-div {
+    margin-top: 1rem;
+  }
+}
+
 
 .selector-button {
   background-color: transparent;
   color: white;  
-  width: 1.5rem;
+  width: 2rem;
   height: 2rem;
   transition: scale 100ms ease-in-out;
   border: none;
@@ -544,6 +549,15 @@ form>button:nth-of-type(2) {
 
 .selector-button>* {
   font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .selector-button {
+    width: 3rem;
+    height: 3rem;
+  }
+  .selector-button>* {
+    font-size: 2.4rem;
+  }
 }
 
 .selector-button:hover,
