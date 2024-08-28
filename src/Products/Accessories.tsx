@@ -7,7 +7,7 @@ export const accessoriesArray: productObject[] = [
         id: 1,
         item: "Quiksilver Leash Lift",
         price: 39.00,
-        picturePath: "/public/productpics/accessories/Leash.png",
+        picturePath: "/productpics/accessories/Leash.png",
         alt: "Quiksilver Leash Lift",
         desc: "CORD: 8 MM / 1-10 FT WAVES",
         optionType: "Length",
