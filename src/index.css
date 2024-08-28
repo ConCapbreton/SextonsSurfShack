@@ -39,7 +39,7 @@ button {
   display: flex;
   align-items: center;
   margin-left: 0.5rem;
-  width: 50%;
+  width: 45%;
   height: 100%;
   gap: 0.5rem;
   border: none;
@@ -60,10 +60,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: end;
-  width: 70%;
+  width: 55%;
   height: 100%;
-  padding-right: 1.5rem;
-  gap: 1rem;
+  padding-right: 0.5rem;
   font-size: 2rem;
 }
 
@@ -197,7 +196,7 @@ button {
 
 #main-page-titles{
   width: fit-content;
-  height: fit-content;
+  
   max-width: 500px;
   margin: 2rem auto 2rem auto;
   padding: 0 1rem 0 1rem;
