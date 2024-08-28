@@ -17,7 +17,7 @@ const MainPage = () => {
         <h2>Happy shopping!</h2>
       </div>
       <div id="main-page-titles" style={productCategory !== TITLE ? {} : hidden}>
-        <h1 translate="no">{productCategory}</h1>
+        <h1>{productCategory}</h1>
       </div>
       <Contact />
       <ProductDisplay identifier={BOARDS} />

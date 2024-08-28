@@ -20,10 +20,10 @@ const Header = () => {
             <div id="header-menu" >
                 <Hamburger />
                 <nav id="nav-list">
-                    <button onClick={categorySelector}>{BOARDS}</button>    
-                    <button onClick={categorySelector}>{WETSUITS}</button>    
-                    <button onClick={categorySelector}>{ACCESSORIES}</button>    
-                    <button onClick={categorySelector}>{CONTACT}</button>    
+                    <button onClick={categorySelector} translate="no">{BOARDS}</button>    
+                    <button onClick={categorySelector} translate="no">{WETSUITS}</button>    
+                    <button onClick={categorySelector} translate="no">{ACCESSORIES}</button>    
+                    <button onClick={categorySelector} translate="no">{CONTACT}</button>    
                 </nav>
                 <button id="cart-icon-button" onClick={() => {alert("This site is just for display purposes, there is no shopping cart just yet! See the contacts page for more detail.")}}>
                     <SlBasket id="cart-icon"/>
