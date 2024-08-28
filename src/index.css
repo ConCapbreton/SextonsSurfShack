@@ -372,7 +372,7 @@ button {
 .product-details>form {
   width: 90px;
   margin-left: 5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: grid;
   grid-gap: 3px;
   grid-template-columns: repeat(2, 0.5fr);
@@ -432,7 +432,6 @@ form>button:nth-of-type(2) {
   .product-details>form {
     width: 140px;
     margin-left: 1rem;
-    margin-top: 1.5rem;
   }
   form>button {
     font-size: 1rem;
@@ -455,7 +454,6 @@ form>button:nth-of-type(2) {
   .product-details>form {
     width: 250px;
     margin-left: 3rem;
-    
   }
   select {
     width: 7.5rem;
